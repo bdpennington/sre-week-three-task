@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: stripe
-          image: uonyeka/stripe:linux-amd64 # Use uonyeka/stripe:linux-arm64 if you are building locally on a Mac
+          image: uonyeka/stripe:linux-arm64 # Use uonyeka/stripe:linux-arm64 if you are building locally on a Mac
           ports:
             - containerPort: 5003
           imagePullPolicy: Always
